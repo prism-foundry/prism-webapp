@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="PRISM">
+  <defs>
+    <linearGradient id="p" x1="8" y1="12" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8FD8F2"/>
+      <stop offset=".5" stop-color="#C7CEEC"/>
+      <stop offset="1" stop-color="#B49BEA"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#0A0F1E"/>
+  <path d="M32 10 L54 50 L10 50 Z" fill="none" stroke="url(#p)" stroke-width="3.4" stroke-linejoin="round"/>
+  <path d="M32 10 L32 50" stroke="#8FD8F2" stroke-width="1.6" opacity=".85"/>
+  <path d="M32 10 L20.5 50" stroke="#C7CEEC" stroke-width="1.6" opacity=".85"/>
+  <path d="M32 10 L43.5 50" stroke="#B49BEA" stroke-width="1.6" opacity=".85"/>
+</svg>

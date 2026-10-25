@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "dist-server",
+    "rootDir": "server",
+    "noEmit": false,
+    "sourceMap": true,
+    "types": ["node"]
+  },
+  "include": ["server"],
+  "exclude": ["server/**/*.test.ts"]
+}

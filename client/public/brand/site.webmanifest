@@ -1,0 +1,12 @@
+{
+  "name": "PRISM — AI & Data Intelligence",
+  "short_name": "PRISM",
+  "description": "Raw Data. Infinite Possibilities. An international AI and data intelligence company.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0A0F1E",
+  "theme_color": "#0A0F1E",
+  "icons": [
+    { "src": "/brand/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

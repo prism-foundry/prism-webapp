@@ -1,0 +1,88 @@
+:root {
+  /* ---------- Spectral palette ---------- */
+  --bg-0: #05070f;
+  --bg-1: #080b18;
+  --bg-2: #0c1122;
+  --bg-3: #111730;
+  --surface: rgba(16, 22, 44, 0.55);
+  --surface-solid: #0e1329;
+  --surface-2: rgba(22, 29, 55, 0.7);
+
+  --ink-1: #eef2ff;   /* primary text */
+  --ink-2: #b7c0dc;   /* secondary */
+  --ink-3: #7c86ab;   /* muted */
+  --ink-4: #565f82;   /* faint */
+
+  --line: rgba(150, 165, 210, 0.14);
+  --line-strong: rgba(150, 165, 210, 0.28);
+
+  --spectrum-1: #7fd6f2;  /* ice cyan */
+  --spectrum-2: #9fb0ff;  /* periwinkle */
+  --spectrum-3: #b79bf0;  /* violet */
+  --spectrum-4: #d9a8e8;  /* orchid */
+  --spectrum-5: #f0c48f;  /* warm amber */
+  --spectrum-6: #f2a0a0;  /* rose */
+
+  --accent: #8fd8f2;
+  --accent-2: #b49bea;
+  --accent-soft: rgba(143, 216, 242, 0.14);
+  --accent-glow: rgba(143, 216, 242, 0.35);
+
+  --success: #6fd9a8;
+  --warn: #f0c48f;
+  --danger: #f08a8a;
+
+  /* ---------- Typography ---------- */
+  --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-fa: 'Vazirmatn', 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.375rem;
+  --text-2xl: clamp(1.5rem, 1.2rem + 1vw, 2rem);
+  --text-3xl: clamp(2rem, 1.4rem + 2vw, 3rem);
+  --text-4xl: clamp(2.5rem, 1.5rem + 3.2vw, 4.25rem);
+  --text-hero: clamp(3rem, 1.5rem + 6vw, 7rem);
+
+  /* ---------- Spacing (8pt scale) ---------- */
+  --sp-1: 0.25rem;
+  --sp-2: 0.5rem;
+  --sp-3: 0.75rem;
+  --sp-4: 1rem;
+  --sp-5: 1.5rem;
+  --sp-6: 2rem;
+  --sp-7: 3rem;
+  --sp-8: 4rem;
+  --sp-9: 6rem;
+  --sp-10: 8rem;
+
+  /* ---------- Radii ---------- */
+  --r-sm: 6px;
+  --r-md: 10px;
+  --r-lg: 16px;
+  --r-xl: 24px;
+  --r-full: 999px;
+
+  /* ---------- Elevation ---------- */
+  --shadow-1: 0 1px 2px rgba(0, 0, 0, 0.4), 0 1px 3px rgba(0, 0, 0, 0.3);
+  --shadow-2: 0 12px 30px -12px rgba(0, 0, 0, 0.6);
+  --shadow-3: 0 40px 80px -24px rgba(0, 0, 0, 0.7);
+  --ring: 0 0 0 3px var(--accent-soft);
+
+  /* ---------- Motion ---------- */
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-1: 150ms;
+  --dur-2: 250ms;
+  --dur-3: 450ms;
+  --dur-4: 900ms;
+
+  /* ---------- Layout ---------- */
+  --container: 78rem;
+  --nav-h: 4.25rem;
+  --z-nav: 50;
+  --z-modal: 100;
+}
